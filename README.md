@@ -56,6 +56,7 @@ $ npm run test:cov
 ## Bibliografia
 
 Instalar docker-desktop (trae docker-compose) Archlinux sin AUR:
+
 https://docs.docker.com/desktop/install/archlinux/
 ó con aur:
 ```bash
@@ -64,9 +65,11 @@ $ sudo pacman -S docker-desktop
 
 
 Docker-compose y PostgreSQL:
+
 https://youtu.be/r92lNH6MYto?si=KrAL0DoFBAyqSkyt
 
 Conectar Postgres a Nestjs con typeORM y Hacer CRUD:
+
 https://medium.com/simform-engineering/nestjs-and-postgresql-a-crud-tutorial-32aa78778752
 
 ## License
