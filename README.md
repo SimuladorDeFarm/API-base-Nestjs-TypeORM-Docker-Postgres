@@ -27,12 +27,9 @@ Instalar dependencias:
 ```bash
 $ npm install @nestjs/config @nestjs/mapped-types @nestjs/typeorm class-transformer class-validator pg typeorm typeorm-naming-strategies
 ```
-crear contenedor docker (puedes modificar usario/calve pero tambien
-deben moificarse en app.module)
-```bash
-$ docker create -p 5432:5432 --name pg_nest -e POSTGRES_USER=ucodrr -e POSTGRES_PASSWORD=1234 -e POSTGRES_DB=mydatabase postgres:16.3
-```
-iniciar init.sql
+
+iniciar init.sql, esto crea la base de datos y tambien el conetendor de dokcer automaticamente
+si es que no existe
 ```bash
 $ sudo docker-compose up
 ```
