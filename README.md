@@ -27,6 +27,9 @@ Instalar dependencias:
 ```bash
 $ npm install @nestjs/config @nestjs/mapped-types @nestjs/typeorm class-transformer class-validator pg typeorm typeorm-naming-strategies
 ```
+```bash
+$ sudo docker-compose up
+```
 
 ## Ejecutar la app
 
