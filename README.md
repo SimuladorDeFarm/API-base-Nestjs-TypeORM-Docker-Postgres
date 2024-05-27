@@ -60,15 +60,19 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 ## Bibliografia
-
-Instalar docker-desktop (trae docker-compose) Archlinux sin AUR:
+*dependiendo como instales es "docker compose" o "docker-compose"
+Instalar docker-desktop Archlinux sin AUR:
 
 https://docs.docker.com/desktop/install/archlinux/
+
 ó con aur:
 ```bash
 $ sudo pacman -S docker-desktop
 ```
-
+docker-compose:
+```bash
+$ sudo pacman -S docker-compose
+```
 
 Docker-compose y PostgreSQL:
 
