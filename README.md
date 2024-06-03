@@ -1,6 +1,8 @@
 Al final de este documento se encontraran los videos tutoriales y documentos usados para
 crearlo
 
+### importante: por deffecto esta app usa el puerto 5322, cambiar en app.module si es necesario
+
 ## Description
 Este es una API base que echa en NestJs conectada a postgresql contenido en docker, usa 
 typeORM. 
