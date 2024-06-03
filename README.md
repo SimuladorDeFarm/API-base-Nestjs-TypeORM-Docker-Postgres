@@ -17,6 +17,24 @@ campos:
 Puedes usar Insomnia o Postman para interactuar con el backend, como administrador de base
 de datos puedes usar DBeaver.
 
+## Requsitos
+
+Desarrollo:
+
+  - Node lts 20.14.0
+  - NestJS 10.3.2
+  - Docker 26.1.3
+  - Imagen Postgres 16.3
+
+ programas varios:
+
+  - Editor de texto: Visual Studio Code
+  - Tester de API: insomnia / postman
+  - Terminal
+  - Admin de BD: Dbeaver
+
+
+
 ## Installation
 
 Crea un proyecto Nestjs y pega el contendio de este repositorio en la carpeta raiz
