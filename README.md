@@ -36,6 +36,13 @@ $ sudo docker-compose up
 
 ## Ejecutar la app
 
+solo la primera vez (si un comando te falla prueba el otro)
+```bash
+$ docker-compose up
+
+$ docker compose up
+```
+
 ```bash
 # development
 $ npm run start
